@@ -152,3 +152,16 @@ GitHub: [https://github.com/DeveloperJarvis](https://github.com/DeveloperJarvis)
 ## Interview Summary (One Line)
 
 > A Python CLI tool that parses Apache/Nginx logs using regex and produces meaningful traffic and error statistics through efficient file processing.
+
+## Creating tag
+
+```bash
+# 1. Check existing tags
+git tag
+# 2. Create a valid tag
+git tag -a v1.0.0 -m "Release version 1.0.0"
+# or lightweight tag
+git tag v1.0.0
+# push tag to remote
+git push origin v1.0.0
+```
